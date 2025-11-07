@@ -16,10 +16,10 @@
 		<module.name>targeting module</module.name>
 		<module.priority>NORMAL</module.priority>
 
-		<cms.version>7.3.0</cms.version>
-		<modules.version>1.0.0</modules.version>
-		<maven.compiler.source>21</maven.compiler.source>
-		<maven.compiler.target>21</maven.compiler.target>
+		<cms.version>8.0.0</cms.version>
+		<modules.version>1.2.0</modules.version>
+		<maven.compiler.source>25</maven.compiler.source>
+		<maven.compiler.target>25</maven.compiler.target>
 	</properties>
 	<inceptionYear>2024</inceptionYear>
 	<organization>
@@ -37,25 +37,25 @@
 		<dependency>
 			<groupId>org.junit.jupiter</groupId>
 			<artifactId>junit-jupiter</artifactId>
-			<version>5.11.3</version>
+			<version>6.0.1</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.assertj</groupId>
 			<artifactId>assertj-core</artifactId>
-			<version>3.26.3</version>
+			<version>3.27.6</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-core</artifactId>
-			<version>5.14.2</version>
+			<version>5.20.0</version>
 			<scope>test</scope>
 		</dependency>
 		<dependency>
 			<groupId>org.mockito</groupId>
 			<artifactId>mockito-junit-jupiter</artifactId>
-			<version>5.14.2</version>
+			<version>5.20.0</version>
 			<scope>test</scope>
 		</dependency>
 
@@ -75,7 +75,7 @@
 		<dependency>
 			<groupId>org.projectlombok</groupId>
 			<artifactId>lombok</artifactId>
-			<version>1.18.34</version>
+			<version>1.18.42</version>
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
